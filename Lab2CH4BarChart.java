@@ -53,7 +53,7 @@ public class Lab2CH4BarChart {
                     && ((fifthStore > 0) && (fifthStore % 100 == 0))) {
 
                 System.out.println("SALES BAR CHART");
-                for (int i = 1; i <= firstStore; i = +100) {
+                for (int i = 1; i <= firstStore; i +=100) {
                     if (i == 1) {
                         System.out.print("Store 1: ");
                     }
