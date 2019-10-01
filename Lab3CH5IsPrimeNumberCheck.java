@@ -13,17 +13,14 @@ import java.util.Scanner;
 public class Lab3CH5IsPrimeNumberCheck {
 
     public static void main(String[] args) {
+
         try {
             Scanner userInput = new Scanner(System.in);
             System.out.print("Please Enter A Number : ");
             int enteredNumber = userInput.nextInt();
-            if (isPrime(enteredNumber)) {
-                System.out.println(enteredNumber + " is a prime number");
-            } else {
-                System.out.println(enteredNumber + " is not a prime number");
-            }
+            System.out.println("Is " + enteredNumber + " is a Prime Number: " + isPrime(enteredNumber));
         } catch (Exception Ex) {
-            System.out.println("Invalid Input: The input you entered is either alphabet or special character or exceeded the range on integer.");
+            System.out.println("Invalid Input: The input you entered is either alphabet/special character/not integer/exceeded the range on integer.");
         }
     }
 
@@ -38,5 +35,41 @@ public class Lab3CH5IsPrimeNumberCheck {
         }
         return true;
     }
-
 }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+//    
+//     public static void main(String[] args) {
+//        try {
+//            Scanner userInput = new Scanner(System.in);
+//            System.out.print("Please Enter A Number : ");
+//            int enteredNumber = userInput.nextInt();
+//            if (isPrime(enteredNumber)) {
+//                System.out.println(enteredNumber + " is a prime number");
+//            } else {
+//                System.out.println(enteredNumber + " is not a prime number");
+//            }
+//        } catch (Exception Ex) {
+//            System.out.println("Invalid Input: The input you entered is either alphabet or special character or exceeded the range on integer.");
+//        }
+//    }
+    
+
+
