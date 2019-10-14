@@ -13,20 +13,20 @@ public class Lab4Circle {
     private double radius;
     private final double PI = 3.14159;
 
-    public void setRadius(double inRadius) {
-        this.radius = inRadius;
-    }
-
-    public double getRadius(double inRadius) {
-        return this.radius;
-    }
-
     public Lab4Circle(double inRadius) {
         this.radius = inRadius;
     }
 
     public Lab4Circle() {
         this.radius = 0.0;
+    }
+    
+     public void setRadius(double inRadius) {
+        this.radius = inRadius;
+    }
+
+    public double getRadius() {
+        return this.radius;
     }
 
     public double getArea() {

@@ -23,7 +23,6 @@ public class Lab4CircleMain {
             if(radius>0){
                 Lab4Circle circle = new Lab4Circle();
             circle.setRadius(radius);
-
             System.out.println("The Area Of The Circle Is: " + df2.format(circle.getArea()));
             System.out.println("The Diameter Of The Circle Is: " + df2.format(circle.getDiameter()));
             System.out.println("The Circumference Of The Circle Is: " + df2.format(circle.getCircumference()));
