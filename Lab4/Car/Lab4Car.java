@@ -14,17 +14,6 @@ public class Lab4Car {
     private String make;
     private int speed;
 
-    public void setYearModel(int inYearModel) {
-        this.yearModel = inYearModel;
-    }
-
-    public void setMake(String inMake) {
-        this.make = inMake;
-    }
-
-    public void setSpeed(int inSpeed) {
-        this.speed = inSpeed;
-    }
 
     public int getYearModel() {
         return this.yearModel;
